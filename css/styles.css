@@ -7,7 +7,7 @@
   background-color: #fff;
   border-radius: 12px;
   box-shadow: 0px 0px 10px 8px rgba(34, 60, 80, 0.17) inset,
-              0px 0px 10px 8px rgba(34, 60, 80, 0.17);
+    0px 0px 10px 8px rgba(34, 60, 80, 0.17);
 }
 .photo {
   width: 200px;
@@ -20,14 +20,14 @@
   flex-direction: column;
   margin: 0 50px 0 0;
 }
-.btnWrapper{
+.btnWrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
 }
 .editBtn,
-.deleteBtn{
+.deleteBtn {
   width: 60px;
   height: 30px;
   border-radius: 12px;
@@ -57,10 +57,10 @@
 }
 .zipcode {
 }
-.phone{
+.phone {
   margin: 0 0 20px 0;
 }
-.website{
+.website {
   margin: 0 0 20px 0;
 }
 .companyWrapper {
@@ -78,80 +78,79 @@
 
 .name::before {
   display: inline-block;
-  content: 'Name: ';
+  content: "Name: ";
   width: 80px;
   font-weight: bold;
 }
 .userName::before {
   display: inline-block;
-  content: 'Username: ';
+  content: "Username: ";
   width: 80px;
   font-weight: bold;
 }
 .email::before {
   display: inline-block;
-  content: 'Email: ';
+  content: "Email: ";
   width: 80px;
   font-weight: bold;
 }
 .street::before {
   display: inline-block;
-  content: 'Street: ';
+  content: "Street: ";
   width: 80px;
   font-weight: bold;
 }
 .suite::before {
   display: inline-block;
-  content: 'Suite: ';
+  content: "Suite: ";
   width: 50px;
   font-weight: bold;
 }
 .city::before {
   display: inline-block;
-  content: 'City: ';
+  content: "City: ";
   width: 50px;
   font-weight: bold;
 }
 .zipcode::before {
   display: inline-block;
-  content: 'Zip code: ';
+  content: "Zip code: ";
   width: 66px;
   font-weight: bold;
 }
-.phone::before{
+.phone::before {
   display: inline-block;
-  content: 'Phone: ';
+  content: "Phone: ";
   width: 80px;
   font-weight: bold;
 }
-.website::before{
+.website::before {
   display: inline-block;
-  content: 'Site: ';
+  content: "Site: ";
   width: 80px;
   font-weight: bold;
 }
 .companyName::before {
   display: inline-block;
-  content: 'Company: ';
+  content: "Company: ";
   width: 80px;
   font-weight: bold;
 }
 .catchPhrase::before {
   display: inline-block;
-  content: 'Catch phrase: ';
+  content: "Catch phrase: ";
   width: 100px;
   font-weight: bold;
 }
 .bs::before {
   display: inline-block;
-  content: 'BS: ';
+  content: "BS: ";
   width: 40px;
   font-weight: bold;
 }
 
-
 .modal {
-  display: flex;
+  display: none;
   position: fixed;
   top: 0;
   left: 0;
@@ -188,14 +187,14 @@
   font-weight: bold;
   cursor: pointer;
 }
-.login {
+.updateForm {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-between;
   width: 100%;
 }
-label{
+label {
   width: 100%;
   display: flex;
   justify-content: space-between;

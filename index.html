@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/styles.css" />
+    <script defer type="module" src="js/func.js"></script>
+    <script defer type="module" src="js/modal.js"></script>
     <script defer type="module" src="js/index.js"></script>
     <title>Document</title>
   </head>
@@ -13,100 +15,66 @@
       <div class="modal_content">
         <span class="close">&times;</span>
         <h3>Привет, странник. Представься, пожалуйста!</h3>
-        <form class="login">
-          
+        <form class="updateForm">
           <label for="name">
             Name
-            <input value="Leanne Graham" id="name">
+            <input value="Leanne Graham" id="name" />
           </label>
           <label for="userName">
             Username
-            <input value="Bret" id="userName">
+            <input value="Bret" id="userName" />
           </label>
           <label for="email">
             email
-            <input value="Sincere@april.biz" id="email">
+            <input value="Sincere@april.biz" id="email" />
           </label>
-          <!-- <div class="addressWrapper"> -->
-            <label for="street">
-              street
-              <input value="Kulas Light" id="street">
-            </label>
-            
-            <label for="suite">
-              suite
-              <input value="Apt. 556" id="suite">
-            </label>
+          <label for="street">
+            street
+            <input value="Kulas Light" id="street" />
+          </label>
 
-            <label for="city">
-              city
-              <input value="Gwenborough" id="city">
-            </label>
+          <label for="suite">
+            suite
+            <input value="Apt. 556" id="suite" />
+          </label>
 
-            <label for="zipcode">
+          <label for="city">
+            city
+            <input value="Gwenborough" id="city" />
+          </label>
+
+          <label for="zipcode">
             zipcode
-            <input value="92998-3874" id="zipcode">
+            <input value="92998-3874" id="zipcode" />
           </label>
-          <!-- </div> -->
           <label for="phone">
             phone
-            <input value="1-770-736-8031 x56442" id="phone">
+            <input value="1-770-736-8031 x56442" id="phone" />
           </label>
           <label for="website">
             website
-            <input value="hildegard.org" id="website">
+            <input value="hildegard.org" id="website" />
           </label>
-          
-          <!-- <div class="companyWrapper"> -->
-            <label for="companyName">
-              companyName
-              <input value="Romaguera-Crona" id="companyName">
-            </label>
-            <label for="catchPhrase">
-              catchPhrase
-              <input value="Multi-layered client-server neural-net" id="catchPhrase">
-            </label>
-            <label for="bs">
-              bs
-              <input value="harness real-time e-markets" id="bs">
-            </label>
-          <!-- </div> -->
-            <button type="submit" class="submitBtn">Submit</button>
-
+          <label for="companyName">
+            companyName
+            <input value="Romaguera-Crona" id="companyName" />
+          </label>
+          <label for="catchPhrase">
+            catchPhrase
+            <input
+              value="Multi-layered client-server neural-net"
+              id="catchPhrase"
+            />
+          </label>
+          <label for="bs">
+            bs
+            <input value="harness real-time e-markets" id="bs" />
+          </label>
+          <button type="submit" class="submitBtn">Submit</button>
         </form>
       </div>
     </div>
-
     <div class="usersCardList">
-      <div class="userCard">
-        <img src="img/png/1.png" alt="photo user 1" class="photo" />
-        <div class="infoWrapper">
-          <div class="name">Leanne Graham</div>
-          <div class="userName">Bret</div>
-          <a mailto="#" class="email">Sincere@april.biz</a>
-          <div class="addressWrapper">
-            <div class="street">Kulas Light</div>
-            <div class="suite">Apt. 556</div>
-            <div class="city">Gwenborough</div>
-            <div class="zipcode">92998-3874</div>
-          </div>
-          <a href="tel:+1-770-736-8031 x56442" class="phone"
-            >1-770-736-8031 x56442</a
-          >
-          <a href="http://hildegard.org" class="website">hildegard.org</a>
-          <div class="companyWrapper">
-            <div class="companyName">Romaguera-Crona</div>
-            <div class="catchPhrase">
-              Multi-layered client-server neural-net
-            </div>
-            <div class="bs">harness real-time e-markets</div>
-          </div>
-        </div>
-        <div class="btnWrapper">
-          <button class="editBtn">Edit</button>
-          <button class="deleteBtn">Delete</button>
-        </div>
-      </div>
     </div>
   </body>
 </html>
